@@ -75,6 +75,7 @@ public class Order {
 	@Override
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
+		sb.append("ORDER SUMMARY:\n");
 		sb.append("Order moment: ");
 		sb.append(sdf.format(moment) + "\n");
 		sb.append("Order status: ");
